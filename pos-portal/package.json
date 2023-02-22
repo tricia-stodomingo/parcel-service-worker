@@ -6,7 +6,7 @@
   "source": "public/index.html",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "dev": "pnpm typecheck --watch & parcel --dist-dir build",
+    "dev": "pnpm typecheck --watch & parcel -p 1234 --dist-dir build",
     "build": "pnpm typecheck && parcel build"
   },
   "dependencies": {
