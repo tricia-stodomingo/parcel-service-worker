@@ -1,0 +1,14 @@
+{
+  "name": "Test App",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "../images/testing.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#2d2e4c",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "react",
+    "rootDir": ".",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@restoplus/admin-portal": ["admin-portal/src"],
+      "@restoplus/customer-portal": ["customer-portal/src"],
+      "@restoplus/client": ["client/src"],
+      "@restoplus/server": ["server/src"],
+      "@restoplus/primary-api": ["primary-api/src"],
+      "@restoplus/secondary-api": ["secondary-api/src"],
+      "@restoplus/cloud-functions": ["cloud-functions/src"]
+    }
+  },
+  "compileOnSave": true,
+  "exclude": ["node_modules", "build"]
+}

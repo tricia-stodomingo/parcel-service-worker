@@ -1,0 +1,26 @@
+{
+  "name": "pos-portal",
+  "version": "1.0.0",
+  "license": "ISC",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "public/index.html",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "pnpm typecheck --watch & parcel --dist-dir build",
+    "build": "pnpm typecheck && parcel build"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
+  },
+  "targets": {
+    "default": {
+      "scopeHoist": false,
+      "distDir": "build"
+    }
+  }
+}
